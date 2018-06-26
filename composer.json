@@ -18,7 +18,8 @@
         }
     ],
     "require": {
-        "php" : "^7.1.3"
+        "php" : "^7.1.3",
+        "kkszymanowski/traitor": "^0.2.0"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=5.4.3",
@@ -26,21 +27,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Larablog\\": "src/"
+            "Gorankrgovic\\Larablog\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Larablog\\Tests\\": "tests/"
+            "Gorankrgovic\\Larablog\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Larablog\\LarablogServiceProvider"
+                "Gorankrgovic\\Larablog\\LarablogServiceProvider"
             ],
             "aliases": {
-                "Propeller": "Larablog\\Facades\\LarablogFacade"
+                "Gorankrgovic\\Larablog": "Gorankrgovic\\Larablog\\Facades\\Larablog"
             }
         }
     },

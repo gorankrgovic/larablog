@@ -1,0 +1,14 @@
+<?php
+namespace DummyNamespace;
+
+use Gorankrgovic\Larablog\Models\LarablogCategory;
+
+class DummyClass extends LarablogCategory
+{
+
+     /**
+     * Fillable fields
+     * @var
+     */
+     protected $fillable = ['name', 'slug'];
+}

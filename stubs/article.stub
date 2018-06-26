@@ -1,0 +1,14 @@
+<?php
+namespace DummyNamespace;
+
+use Gorankrgovic\Larablog\Models\LarablogArticle;
+
+class DummyClass extends LarablogArticle
+{
+
+     /**
+     * Fillable fields
+     * @var
+     */
+     protected $fillable = ['title', 'slug', 'excerpt', 'content', 'status', 'is_featured', 'publish_at'];
+}
